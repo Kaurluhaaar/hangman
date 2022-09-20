@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#secret-word {
+    font-size: 4em;
+}
+
+#secret-word span{
+    padding: 4px;
+}
+
+#wrong-word {
+    letter-spacing: 0.5em;
+}
+
+#lives {
+    font-size: 4em;
+    color: #FF0000;
+}
+
+#hangman-container {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-left: 2em;
+}
+
+#hangman-container img {
+    position: absolute;
+}
+
+#hangman-1 {
+    display: none;
+}
+
+#hangman-2 {
+    display: none;
+}
+
+#hangman-3 {
+    display: none;
+    left: 172px;
+}
+
+#hangman-4 {
+    display: none;
+    left: 145px;
+    top: 45px;
+}
+
+#hangman-5 {
+    display: none;
+    top: 102px;
+    left: 172px;
+}
+
+#hangman-6 {
+    display: none;
+    top: 120px;
+    left: 142px;
+}
+
+#hangman-7 {
+    display: none;
+    top: 120px;
+    left: 177px;
+}
+
+#hangman-8 {
+    display: none;
+    top: 180px;
+    left: 142px;
+}
+
+#hangman-9 {
+    display: none;
+    top: 180px;
+    left: 177px;
+}
