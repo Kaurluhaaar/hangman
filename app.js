@@ -8,7 +8,7 @@ let secretWord = '';
 let lives = 9;
 let strike = 0;
 
-fetch('words_hangman.txt')
+fetch('words-hangman.txt')
 .then(response => response.text())
 .then(data => {
     words = data.split('\n');
